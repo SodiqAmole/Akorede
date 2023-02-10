@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>Something</title>
+   <style>
+      h3 {
+         font-family: 'arial'; font-size: small;
+        }
+        h1 {color: blue; font-family: Arial, Helvetica, sans-serif;
+
+        }
+      .one{
+         left: 50%;
+         background-color: whitesmoke;
+         height: 100%;
+         width: 50%;
+         position: fixed;
+         top: 0;
+      }
+      .two{
+         background-image:url(photo.jpg); position: fixed; top: 0;  height: 100%; width: 300px;
+      }
+      .three {
+         right: 25%;
+         background-color:whitesmoke;
+         height: 100%;
+         width: 50%;
+         position: fixed;
+         top: 0;
+      }
+   </style>
+</head>
+<body>
+            <div class="two"> 
+                        
+        </div>   
+                       
+            <form action="">
+                <div class="three">  
+            <h1 style>Basic Details</h1>
+            <br/>            
+            <h3>First Name</h3>
+            <input type="text" placeholder="">
+            <br/>
+
+            <h3> Email ID</h3>
+            <input type="text" placeholder="">
+            <br/>
+
+            <h3>Country</h3>
+            <input type="text" placeholder="">
+
+            <h3>Phone Number</h3>
+            <input type="number" placeholder="">
+            <br/> <br/><br/>
+            <label> Reset All</label>
+        </div>
+
+        <div class="one">
+            <br/> <br/> <br/> <br/><br/>
+            <h3>Last Name</h3>
+            <input type="text" placeholder="">
+            <h3> Your User ID</h3>
+            <input type="text" placeholder="">
+            <h3>State</h3>
+            <input type="text" placeholder=""> 
+            <h3>City</h3>
+            <input type="text" placeholder="">
+            <br/> <br/><br/>
+            <input type="text" placeholder="Reference code">
+            <br/> <br/><br/>
+            <button>Continue</button>
+
+        </div>
+                </form>
+    </body>
+</html>
